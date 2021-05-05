@@ -13,6 +13,7 @@ En una terminal ejecutamos el siguiente comando
 java -version
 ```
 Si nos devuelve un mensaje como este: 
+
 *"java" no se reconoce como un comando interno o externo,
 programa o archivo por lotes ejecutable.*
 Entonces no lo tenemos instalado. Vamos a descargarlo.
@@ -26,6 +27,7 @@ Cerramos las terminales que tengamos abiertas, abrimos una nueva y ejecutamos el
 java -version
 ```
 Esperamos a que nos devuelva el siguiente mensaje: 
+
 *java version "1.8.0_291"
 Java(TM) SE Runtime Environment (build 1.8.0_291-b10)
 Java HotSpot(TM) 64-Bit Server VM (build 25.291-b10, mixed mode)*
