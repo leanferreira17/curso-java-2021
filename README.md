@@ -39,8 +39,12 @@ Para programar en Java, o en cualquier otro lenguaje, no es necesario contar con
 Mi recomendación es que lo utilicen, pero son libres de optar por el que más les guste.
 
 Vamos a descargarlo de la página oficial: https://www.jetbrains.com/es-es/idea/download/#section=windows. Yo tengo la versión "community", tiene algunos features de menos pero para nuestros fines va a andar bien. Descargamos el ejecutable e instalamos. Cuando nos aparezca en pantalla esta ventana:
+
 ![installar intellij](https://user-images.githubusercontent.com/38332862/117705110-01ec1700-b1a2-11eb-82da-7463440544a9.PNG)
-Marcamos las opciones que se muestran en la captura, con la salvedad de seleccionar 32 bits si nuestro sistema tiene justamente una arquitectura de 32 bits. 
+
+Marcamos las opciones que se muestran en la captura. 
+Si nuestro sistema es de 32 bits, en el grupo "Create Desktop Shortcut" vamos a seleccionar "32 bit launcher".
+
 
 
 
