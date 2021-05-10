@@ -43,7 +43,7 @@ Vamos a descargarlo de la página oficial: https://www.jetbrains.com/es-es/idea/
 ![installar intellij](https://user-images.githubusercontent.com/38332862/117705110-01ec1700-b1a2-11eb-82da-7463440544a9.PNG)
 
 Marcamos las opciones que se muestran en la captura. 
-Si nuestro sistema es de 32 bits, en el grupo "Create Desktop Shortcut" vamos a seleccionar "32 bit launcher".
+Si nuestro sistema es de 32 bits, en el grupo "Create Desktop Shortcut" vamos a seleccionar "32-bit launcher", en lugar de 64 bits. Reiniciamos la PC y comprobamos que esté instalado.
 
 
 
