@@ -69,7 +69,7 @@ Deberiamos obtener esta respuesta:
 *javac 1.8.0_291*
 
 
-# Instalación del Entorno Integrado de Desarrollo (IDE)
+# Instalando el Entorno Integrado de Desarrollo (IDE)
 Para programar en Java, o en cualquier otro lenguaje, no es necesario contar con ningún Entorno Integrado de Desarrollo (IDE) en particular. Existen diversos IDEs en el mercado, algunos gratuitos y otros pagos. Yo suelo elegir IntelliJ IDEA por que trabajo hace años con él y porque tiene un montón de características y funcionalidades (features) que son muy útiles a la hora de desarrollar, hacer un code review o simplemente navegar el código fuente de una app.
 
 Mi recomendación es que lo utilicen, pero son libres de optar por el que más les guste.
@@ -82,7 +82,7 @@ Marcamos las opciones que se muestran en la captura.
 Si nuestro sistema es de 32 bits, en el grupo "Create Desktop Shortcut" vamos a seleccionar "32-bit launcher", en lugar de 64 bits. Reiniciamos la PC y comprobamos que esté instalado.
 
 
-# Instalación de Git
+# Instalando de Git
 Vamos a instalar uno de los gestores de versiones mas conocidos y utilizados por los desarrolladores de todo el mundo.
 Accedemos a esta web y descargamos el instalador: https://gitforwindows.org/.
 Corremos el instalador y damos "next", "next" y mas "next" asi queda todo por default.
