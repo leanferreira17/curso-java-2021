@@ -45,6 +45,7 @@ Si todo salió bien y no observamos un error en la consola, procederemos a reali
 echo %PATH%
 ```
 Deberiamos poder ver al final de la cadena devuelta nuestro nueva ruta adherida recientemente:
+
 *C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Lean\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;;**C:\Program Files\Java\jdk1.8.0_291\bin***
 
 # Instalación del Entorno Integrado de Desarrollo (IDE)
