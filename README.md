@@ -33,5 +33,12 @@ Esperamos a que nos devuelva el siguiente mensaje:
 Java(TM) SE Runtime Environment (build 1.8.0_291-b10)
 Java HotSpot(TM) 64-Bit Server VM (build 25.291-b10, mixed mode)*
 
+# Instalación del Entorno Integrado de Desarrollo (IDE)
+Para programar en Java, o en cualquier otro lenguaje, no es necesario contar con ningún Entorno Integrado de Desarrollo (IDE) en particular. Existen diversos IDEs en el mercado, algunos gratuitos y otros pagos. Yo suelo elegir IntelliJ IDEA por que trabajo hace años con él y porque tiene un montón de características y funcionalidades (features) que son muy útiles a la hora de desarrollar, hacer un code review o simplemente navegar el código fuente de una app.
+
+Mi recomendación es que lo utilicen, pero son libres de optar por el que más les guste.
+
+Vamos a descargarlo de la página oficial: https://www.jetbrains.com/es-es/idea/download/#section=windows.
+
 
 
