@@ -34,19 +34,31 @@ Java(TM) SE Runtime Environment (build 1.8.0_291-b10)
 Java HotSpot(TM) 64-Bit Server VM (build 25.291-b10, mixed mode)*
 
 # Añadiendo Java 8 a nuestras variables de entorno
-Ahora necesitamos ubicar el directorio de instalación de Java 8. Si no cambiamos la ruta que viene por default, tendriamos que encontrarlo fácilmente en esta dirección: C:\Program Files\Java\jdk1.8.0_291\bin. 
-Abrimos una nueva terminal y escribimos lo siguiente: 
-```
-set path=%path%;C:\Program Files\Java\jdk1.8.0_291\bin
-```
-Le damos Enter.
-Si todo salió bien y no observamos un error en la consola, procederemos a realizar un chequeo. Escribimos:
-```
-echo %PATH%
-```
-Deberiamos poder ver al final de la cadena devuelta nuestro nueva ruta adherida recientemente:
+Ahora necesitamos ubicar el directorio de instalación de Java 8. Si no cambiamos la ruta que viene por default, tendriamos que encontrarlo fácilmente en esta dirección: C:\Program Files\Java\jdk1.8.0_291.
 
-*C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Lean\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;;**C:\Program Files\Java\jdk1.8.0_291\bin***
+Vamos al buscador y escribimos "variables de entorno". Ingresamos a Propiedades del Sistema / Variables de entorno.
+
+![var ent](https://user-images.githubusercontent.com/38332862/117712388-a1150c80-b1aa-11eb-8245-21f34163c664.PNG)
+
+En variables del Sistema
+
+![var 1](https://user-images.githubusercontent.com/38332862/117713488-19c89880-b1ac-11eb-9ee9-7f52835ada49.PNG)
+
+Agregamos una nueva llamada "JAVA_HOME"
+
+![VAR 2](https://user-images.githubusercontent.com/38332862/117713533-2947e180-b1ac-11eb-8268-1b4381e3fb05.PNG)
+![VAR 3](https://user-images.githubusercontent.com/38332862/117713556-3238b300-b1ac-11eb-84b2-e1adb2501166.PNG)
+
+Ahora vamos a editar la variable del sistema "Path"
+
+![VAR 4](https://user-images.githubusercontent.com/38332862/117713628-48467380-b1ac-11eb-9a29-ff21cc8a739d.PNG)
+
+Le damos a "Nuevo" y agregamos la ruta
+
+![var 5](https://user-images.githubusercontent.com/38332862/117713642-4b416400-b1ac-11eb-9150-ccad4c9bb6b5.PNG)
+
+Luego le damos a "Aceptar" en las 3 ventanas que se nos abrieron en el proceso, de lo contrario no se guardarán los cambios.
+
 
 # Instalación del Entorno Integrado de Desarrollo (IDE)
 Para programar en Java, o en cualquier otro lenguaje, no es necesario contar con ningún Entorno Integrado de Desarrollo (IDE) en particular. Existen diversos IDEs en el mercado, algunos gratuitos y otros pagos. Yo suelo elegir IntelliJ IDEA por que trabajo hace años con él y porque tiene un montón de características y funcionalidades (features) que son muy útiles a la hora de desarrollar, hacer un code review o simplemente navegar el código fuente de una app.
