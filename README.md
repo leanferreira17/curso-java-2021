@@ -58,6 +58,15 @@ Le damos a "Nuevo" y agregamos la ruta
 ![var 5](https://user-images.githubusercontent.com/38332862/117713642-4b416400-b1ac-11eb-9150-ccad4c9bb6b5.PNG)
 
 Luego le damos a "Aceptar" en las 3 ventanas que se nos abrieron en el proceso, de lo contrario no se guardarán los cambios.
+Cerramos todas las terminales que tengamos abiertas. Abrimos una nueva y escribimos:
+
+```
+javac -version
+```
+
+Deberiamos obtener esta respuesta:
+
+*javac 1.8.0_291*
 
 
 # Instalación del Entorno Integrado de Desarrollo (IDE)
