@@ -33,6 +33,20 @@ Esperamos a que nos devuelva el siguiente mensaje:
 Java(TM) SE Runtime Environment (build 1.8.0_291-b10)
 Java HotSpot(TM) 64-Bit Server VM (build 25.291-b10, mixed mode)*
 
+# Añadiendo Java 8 a nuestras variables de entorno
+Ahora necesitamos ubicar el directorio de instalación de Java 8. Si no cambiamos la ruta que viene por default, tendriamos que encontrarlo fácilmente en esta dirección: C:\Program Files\Java\jdk1.8.0_291\bin. 
+Abrimos una nueva terminal y escribimos lo siguiente: 
+```
+set path=%path%;C:\Program Files\Java\jdk1.8.0_291\bin
+```
+Le damos Enter.
+Si todo salió bien y no observamos un error en la consola, procederemos a realizar un chequeo. Escribimos:
+```
+echo %PATH%
+```
+Deberiamos poder ver al final de la cadena devuelta nuestro nueva ruta adherida recientemente:
+*C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Lean\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;;**C:\Program Files\Java\jdk1.8.0_291\bin***
+
 # Instalación del Entorno Integrado de Desarrollo (IDE)
 Para programar en Java, o en cualquier otro lenguaje, no es necesario contar con ningún Entorno Integrado de Desarrollo (IDE) en particular. Existen diversos IDEs en el mercado, algunos gratuitos y otros pagos. Yo suelo elegir IntelliJ IDEA por que trabajo hace años con él y porque tiene un montón de características y funcionalidades (features) que son muy útiles a la hora de desarrollar, hacer un code review o simplemente navegar el código fuente de una app.
 
