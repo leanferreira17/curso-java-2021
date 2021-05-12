@@ -96,6 +96,8 @@ Deberiamos obtener el siguiente resultado:
 
 *git version 2.31.1.windows.1*
 
+Durante el cursado solo será necesario ir haciendo "pull" para obtener el material de cada clase, no será necesario subir (push) ningún tipo de archivos al repositorio.
+
 
 
 
