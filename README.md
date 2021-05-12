@@ -82,7 +82,7 @@ Marcamos las opciones que se muestran en la captura.
 Si nuestro sistema es de 32 bits, en el grupo "Create Desktop Shortcut" vamos a seleccionar "32-bit launcher", en lugar de 64 bits. Reiniciamos la PC y comprobamos que esté instalado.
 
 
-# Instalando de Git
+# Instalando Git
 Vamos a instalar uno de los gestores de versiones mas conocidos y utilizados por los desarrolladores de todo el mundo.
 Accedemos a esta web y descargamos el instalador: https://gitforwindows.org/.
 Corremos el instalador y damos "next", "next" y mas "next" asi queda todo por default.
