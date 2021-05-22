@@ -33,15 +33,16 @@ public class PrincipalTiposPrimitivos {
         System.out.println(cantidadDeArticulosVendidos);
 
         // long
-        long cantidadDeHabitantesEnArgentina = 47000000;
+        long cantidadDeHabitantesEnArgentina = 9223372036854775807L;
         System.out.println(cantidadDeHabitantesEnArgentina);
+        //System.out.println("Maximo valor para Long: " + Long.MAX_VALUE);
 
         // float
-        float distanciaEntreBuenosAiresYCordobaEnKilometros = 699.45f;
+        float distanciaEntreBuenosAiresYCordobaEnKilometros = 699.45F;
         System.out.println(distanciaEntreBuenosAiresYCordobaEnKilometros);
 
         // double
-        double pesoDeUnAutomovilPromedio = 2987.4765;
+        double pesoDeUnAutomovilPromedio = 2987.4765D;
         System.out.println(pesoDeUnAutomovilPromedio);
 
         // char
