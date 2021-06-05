@@ -1,5 +1,6 @@
 package herencia;
 
+import herencia.modelos.Humano;
 import herencia.modelos.Persona;
 import herencia.modelos.Programador;
 import herencia.modelos.Trabajador;
@@ -23,6 +24,8 @@ public class Principal {
         int antiguedadEnLaCompania = 20;
 
         Trabajador trabajador = new Trabajador(salario, cantidadDeDiasDeVacaciones, antiguedadEnLaCompania);
+        trabajador.setNombre("Pedro");
+
         System.out.println("El trabajador se llama " + trabajador.getNombre() + ", y en las próximas vacaciones" +
                 " gozará de " + trabajador.getCantidadDeDiasDeVacaciones() + " días.");
 
