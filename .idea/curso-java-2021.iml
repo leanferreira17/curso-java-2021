@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Modulo-III/bucles/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Modulo-III/ifelse/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Modulo-IV/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modulo-V/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modulo-VI/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
